@@ -15,7 +15,7 @@
 
     <groupId>com.springframework</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>spring-pet-clinic</name>
     <description>Spring Pet Clinic Project</description>
 
@@ -43,7 +43,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:Itzhak717/spring-pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>0.0.1-SNAPSHOT</tag>
   </scm>
 
 </project>
