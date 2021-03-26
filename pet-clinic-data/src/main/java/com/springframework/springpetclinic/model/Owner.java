@@ -12,10 +12,9 @@ import java.util.Set;
 @Setter
 @Getter
 @NoArgsConstructor
-@Builder
 @Entity
 @Table(name = "owners")
-public class Owner extends Person{
+public class Owner extends Person {
 
     @Builder
     public Owner(Long id, String firstName, String lastName, String address, String city,
@@ -32,10 +31,8 @@ public class Owner extends Person{
 
     @Column(name = "city")
     private String city;
-
     @Column(name = "telephone")
     private String telephone;
-
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner")
     private Set<Pet> pets = new HashSet<>();
 }
